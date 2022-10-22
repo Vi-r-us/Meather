@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="30dp">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26 Dec"
+        android:textColor="@color/textColor"
+        android:textSize="12sp"
+        android:fontFamily="@font/ubuntu_condensed_regular"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:id="@+id/iv_weatherLogo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/temp"
+        android:backgroundTint="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time"
+        app:layout_constraintStart_toStartOf="parent" />
+    
+    <ImageView
+        android:id="@+id/iv_upArrow"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/uparrow"
+        app:layout_constraintTop_toBottomOf="@id/iv_weatherLogo"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/tv_highestTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="26°C"
+        android:textColor="@color/translucent"
+        android:textSize="11sp"
+        android:fontFamily="@font/ubuntu_condensed_regular"
+        app:layout_constraintTop_toBottomOf="@id/iv_weatherLogo"
+        app:layout_constraintStart_toEndOf="@id/iv_upArrow" />
+
+    <ImageView
+        android:id="@+id/iv_downArrow"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/downarrow"
+        app:layout_constraintTop_toBottomOf="@id/iv_upArrow"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/tv_lowestTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="16°C"
+        android:textColor="@color/translucent"
+        android:textSize="11sp"
+        android:fontFamily="@font/ubuntu_condensed_regular"
+        app:layout_constraintTop_toBottomOf="@id/iv_upArrow"
+        app:layout_constraintStart_toEndOf="@id/iv_downArrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/search_closed_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:background="@color/background">
+
+        <View
+            android:id="@+id/open_search_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/add"
+            android:backgroundTint="@color/translucent"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_open_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:background="@drawable/rounded_corner_background"
+        android:visibility="invisible">
+
+        <View
+            android:id="@+id/close_search_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/ic_round_close_24"
+            android:backgroundTint="@color/translucent"/>
+
+        <EditText
+            android:id="@+id/search_input_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/background"
+            android:background="@null"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@id/execute_search_button"
+            android:layout_toEndOf="@id/close_search_button" />
+
+
+        <View
+            android:id="@+id/execute_search_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/check"
+            android:backgroundTint="@color/translucent"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
