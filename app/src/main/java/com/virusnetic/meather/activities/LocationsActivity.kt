@@ -39,7 +39,6 @@ class LocationsActivity : AppCompatActivity() {
                 MainViewModelFactory(repository)
             )[MainViewModel::class.java]
 
-        // TODO Implement current location
         binding.ibCurrentLocations.setOnClickListener {
             val latLng = LocationUtils.getCurrentLocation(this)
             //Log.i("MyTag", "lat: $latLng")
