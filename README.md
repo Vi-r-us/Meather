@@ -22,6 +22,7 @@ Weatherapp is a simple weather forecast app, which uses some APIs to fetch 5 day
 * [Navigation](https://developer.android.com/guide/navigation) - interactions that allow users to navigate across, into, and back out from the different pieces of content within your app.
 * [Fragment](https://developer.android.com/guide/components/fragments) - represents a behavior or a portion of user interface in a FragmentActivity.
 * [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview) - for display a scrolling list of elements based on large data sets.
+* [Shared Preferences](https://developer.android.com/training/data-storage/shared-preferences) - A SharedPreferences object points to a file containing key-value pairs and provides simple methods to read and write them.
 * [Material-Components](https://github.com/material-components/material-components-android) - Material design components.
   - [Material Dialogs](https://github.com/afollestad/material-dialogs) - library with extensible dialogs API for Kotlin & Android.
 
