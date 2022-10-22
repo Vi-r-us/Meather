@@ -20,11 +20,11 @@ Weatherapp is a simple weather forecast app, which uses some APIs to fetch 5 day
 <img height= "250" src="screenshot/Forecast_dark.png" alt="Gif2" /></p>
 
 <p><img height= "250" src="screenshot/Locations_light.png" alt="Gif1" />
-<img height= "250" src="screenshot/Locations_dark.png" alt="Gif2" /></p>
-
-<p><img height= "250" src="screenshot/Settings_light.png" alt="Gif1" />
-<img height= "250" src="screenshot/Settings_dark.png" alt="Gif2" /></p>
-
+<img height= "250" src="screenshot/Locations_dark.png" alt="Gif2" />
+&nbsp; &nbsp;
+<img height= "250" src="screenshot/Settings_light.png" alt="Gif1" />
+<img height= "250" src="screenshot/Settings_dark.png" alt="Gif2" />
+</p>
 
 ## Tech Stack & Open-source libraries 
 * Minimum SDK level 21.
