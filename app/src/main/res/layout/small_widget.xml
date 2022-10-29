@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.WeatherApp.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:theme="@style/Theme.WeatherApp.AppWidgetContainer">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:fontFamily="@font/ubuntu_condensed_regular"
+            android:textSize="12sp"
+            android:text="Mon"/>
+
+        <TextView
+            android:id="@+id/tv_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="26°"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_highLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_condensed_regular"
+            android:textSize="12sp"
+            android:textColor="@color/textColor"
+            android:text="20°/ 30°"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_weatherLogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/temp"
+        android:backgroundTint="@color/textColor"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        style="@style/Widget.WeatherApp.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

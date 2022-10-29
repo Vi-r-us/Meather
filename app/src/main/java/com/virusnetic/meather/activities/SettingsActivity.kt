@@ -6,14 +6,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.lifecycle.lifecycleScope
-import com.google.android.play.core.ktx.requestReview
-import com.google.android.play.core.review.ReviewInfo
-import com.google.android.play.core.review.ReviewManagerFactory
-import com.google.android.play.core.review.model.ReviewErrorCode
 import com.virusnetic.meather.databinding.ActivitySettingsBinding
 import com.virusnetic.meather.util.Constants
-import kotlinx.coroutines.*
 
 
 class SettingsActivity : AppCompatActivity() {
@@ -49,7 +43,7 @@ class SettingsActivity : AppCompatActivity() {
             //startReviewFlow()
         }
 
-        if ( Constants.prefAppSettings.getBoolean("NightMode", false) ) {
+        if ( Constants.prefAppSettings.getBoolean("NightMode", true) ) {
             binding.ivLightThemeCheck.visibility = View.INVISIBLE
             binding.ivDarkThemeCheck.visibility = View.VISIBLE
         } else {

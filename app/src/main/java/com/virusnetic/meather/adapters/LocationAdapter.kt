@@ -1,6 +1,5 @@
 package com.virusnetic.meather.adapters
 
-import android.app.Activity
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -8,10 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.virusnetic.meather.R
-import com.virusnetic.meather.activities.LocationsActivity
 import com.virusnetic.meather.models.LocationEntity
-import com.virusnetic.meather.repository.WeatherRepository
-import com.virusnetic.meather.viewmodels.MainViewModel
 
 class LocationAdapter(val context: Context, private val locations: List<LocationEntity>) :
     RecyclerView.Adapter<LocationAdapter.ViewHolder>() {

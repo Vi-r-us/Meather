@@ -13,7 +13,7 @@ import com.virusnetic.meather.util.LocationUtils
 import com.virusnetic.meather.viewmodels.MainViewModel
 import com.virusnetic.meather.viewmodels.MainViewModelFactory
 
-class MainActivity : AppCompatActivity() {
+    class MainActivity : AppCompatActivity() {
 
     private lateinit var mainViewModel: MainViewModel
     private lateinit var binding: ActivityMainBinding

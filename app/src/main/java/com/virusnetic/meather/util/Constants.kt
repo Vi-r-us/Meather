@@ -23,7 +23,7 @@ object Constants {
         prefWeather = context.getSharedPreferences(APP_ID, MODE_PRIVATE)
         prefAppSettings = context.getSharedPreferences(APP_ID, MODE_PRIVATE)
 
-        if (prefAppSettings.getBoolean("NightMode", false))
+        if (prefAppSettings.getBoolean("NightMode", true))
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
         else
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)

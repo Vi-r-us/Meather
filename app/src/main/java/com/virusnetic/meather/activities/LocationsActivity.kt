@@ -3,9 +3,7 @@ package com.virusnetic.meather.activities
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -20,7 +18,6 @@ import com.virusnetic.meather.util.SwipeToEditCallback
 import com.virusnetic.meather.util.ToolbarVisibilityHandler
 import com.virusnetic.meather.viewmodels.MainViewModel
 import com.virusnetic.meather.viewmodels.MainViewModelFactory
-import com.virusnetic.meather.views.SearchView
 
 class LocationsActivity : AppCompatActivity() {
 
