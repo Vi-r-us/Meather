@@ -7,8 +7,13 @@
 Weatherapp is a simple weather forecast app, which uses some APIs to fetch 5 day / 3 hour forecast data from the [OpenWeatherMap](https://openweathermap.org/forecast5) and to fetch places, cities, counties, coords etc. The main goal of this app is to be a simple designed (monotonic tone) of how to build an high quality Android application that uses the Architecture components, in Kotlin.
 
 ## Screenshots 
+
 <p><img height= "250" src="screenshot/Splash_light.png" alt="Gif1" />
-<img height= "250" src="screenshot/Splash_dark.png" alt="Gif2" /></p>
+<img height= "250" src="screenshot/Splash_dark.png" alt="Gif2" /> 
+&nbsp; &nbsp;
+<img height= "250" src="screenshot/large_widget_light.png" alt="Gif2" /> 
+ &nbsp;
+<img height= "250" src="screenshot/large_widget_dark.png" alt="Gif1" /> </p>
 
 <p><img height= "250" src="screenshot/Home_light.png" alt="Gif1" />
 <img height= "250" src="screenshot/Home_dark.png" alt="Gif2" />
